@@ -27,21 +27,21 @@ margin-right: 20px;
     margin-top: 30px;
 }
 .tariff-element__base-title {
-    font-family: gothampro;
+    font-family: 'gothampro';
     font-weight: 700;
     font-size: 11px;
     letter-spacing: 2,54px;
     color: #212121;
 }
 .tariff-element__base-text {
-    font-family: gothampro;
+    font-family: 'gothampro';
     font-weight: 300;
     font-size: 18px;
     color: #221f1f;
     line-height: 1.64;
 }
 .tariff-element__base-item {
-    font-family: gothampro;
+    font-family: 'gothampro';
     font-weight: 300;
     font-size: 18px;
     color: #221f1f;
