@@ -1,0 +1,132 @@
+.tariff-element__preview {
+    background-color: #27273e;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: relative;
+}
+.tariff-element__img {
+position: absolute;
+width: 27px;
+height: 31px;
+transform: translate(-50%, -50%);
+top: 50%;
+}
+.tariff-element__base-item::before {
+content: "";
+height: 4px;
+width: 4px;
+background-color: #cc3366;
+border-radius: 50%;
+display: inline-block;
+vertical-align: middle;
+margin-right: 20px;
+}
+.tariff-element__base-title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.tariff-element__base-title {
+    font-family: gothampro;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2,54px;
+    color: #212121;
+}
+.tariff-element__base-text {
+    font-family: gothampro;
+    font-weight: 300;
+    font-size: 18px;
+    color: #221f1f;
+    line-height: 1.64;
+}
+.tariff-element__base-item {
+    font-family: gothampro;
+    font-weight: 300;
+    font-size: 18px;
+    color: #221f1f;
+    line-height: 1.64;
+}
+.tariff-element__base-list {
+    text-align: left;
+}
+.tariff__avatar {
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+}
+.tariff__avatar:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27273e;
+    opacity: 0.7;
+    transition: .5s;
+}
+.tariff__avatar:hover .tariff__avatar-name {
+    display: none;
+}
+.tariff__avatar:hover::after {
+    background-color: transparent;
+}
+.tariff__avatar-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tariffs__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tariffs__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    border: 1px solid transparent;
+    margin-right: 25px;
+}
+.title {
+font-family: 'gothampro';
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #221f1f;
+text-align: center;
+}
+.tariff__content {
+    font-family: 'gothampro';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+.tariffs__title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'gothampro';
+    font-size: 49px;
+    font-weight: 700;
+    color: #221f1f;
+    
+}
+.tariff__avatar-name {
+    font-family: 'gothampro';
+    font-weight: 700;
+    color: #5dd1f8;
+    font-size: 24px;
+    z-index: 1;
+}
+.tariff__avatar-vip {
+    font-family: 'gothampro';
+    font-weight: 700;
+    color: #ec1e79;
+    font-size: 24px;
+    z-index: 1;
+}

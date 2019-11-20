@@ -1,0 +1,16 @@
+.breadcrumbs__list {
+    display: flex;
+    margin-top: 45px;
+}
+.breadcrumbs__item:last-child .breadcrumbs__link {
+    color: #221f1f;
+}
+.breadcrumbs__link {
+    font-family: 'gothampro';
+    font-weight: 300;
+    font-style: italic;
+    color: #ec1e79;
+    font-size: 14px;
+    line-height: 18px;
+}
+

@@ -1,0 +1,30 @@
+.commercial {
+    background: url(/img/pattern.png);
+    height: 174px;
+    text-align: center;
+}
+.commercial__block {
+    width: 611px;
+    height: 77px;
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'gothampro';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.commercial-list__list {
+    font-size: 18px;
+    text-align: left;
+    font-family: 'GothamPro';
+    font-weight: 300;
+}
+.commercial-list__list-price {
+    color: #ec1e79;
+    font-weight: 700;
+}

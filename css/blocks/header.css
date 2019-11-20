@@ -1,0 +1,40 @@
+.header {
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color:#27273e;
+}
+.inform {
+    display: flex;
+    flex-direction: column;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.contacts {
+    position: relative;
+}
+.contacts__phone {
+    font-family: 'gothampro';
+    font-weight: 700;
+    font-size: 21px;
+    color: #ffffff;
+}
+.contacts__schedule {
+    font-family: 'opensans-bold';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ec1e79;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+.contacts__schedule {
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts__schedule:hover {
+    color: rgba(0, 60, 255, 0.548);
+}

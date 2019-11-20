@@ -1,0 +1,53 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.paginator__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px;
+}
+.paginator__btn {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1,5;
+    color: #221f1f;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pagenumber__info {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1,5;
+    color: #656464;
+    display: inline-block;
+    vertical-align: middle;
+}
+.paginator__link {
+    color: #221f1f;
+    padding: 5px 10px;
+}
+.paginator__link:hover {
+    color: #ec1e79;
+
+    border-radius: 4px;
+}
+.paginator__item--active .paginator__link {
+    color: #ec1e79;
+    background-color: #27273e;
+    border-radius: 4px;
+}
