@@ -49,21 +49,21 @@
 }
 .navigation__item-link--feed::before {
     width: 20px; height: 18px;
-    background: url('/img/sprite.png') -10px -10px;
+    background: url('../../img/sprite.png') -10px -10px;
 }
 .navigation__item-link--price::before {
     width: 19px; height: 16px;
-    background: url('/img/sprite.png') -10px -48px;
+    background: url('../../img/sprite.png') -10px -48px;
 }
 .navigation__item-link:hover.navigation__item-link--main::before {
     width: 17px; height: 15px;
-    background: url('/img/sprite.png') -90px -45px;
+    background: url('../../img/sprite.png') -90px -45px;
 }
 .navigation__item-link:hover.navigation__item-link--feed::before {
     width: 20px; height: 18px;
-    background: url('/img/sprite.png') -50px -10px;
+    background: url('../../img/sprite.png') -50px -10px;
 }
 .navigation__item-link:hover.navigation__item-link--price::before {
     width: 19px; height: 16px;
-    background: url('/img/sprite.png') -49px -48px;
+    background: url('../../img/sprite.png') -49px -48px;
 } 
