@@ -12,7 +12,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -21,7 +21,7 @@
 .commercial-list__list {
     font-size: 18px;
     text-align: left;
-    font-family: 'GothamPro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 .commercial-list__list-price {
