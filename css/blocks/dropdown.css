@@ -14,14 +14,14 @@
 }
 .dropdown__item {
     color: #ec1e79;
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
 }
 .dropdown__item:last-child {
     color: #221f1f;
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
