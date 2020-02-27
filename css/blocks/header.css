@@ -18,13 +18,13 @@
     position: relative;
 }
 .contacts__phone {
-    font-family: 'gothampro';
+    font-family: 'GothaProBol';
     font-weight: 700;
     font-size: 21px;
     color: #ffffff;
 }
 .contacts__schedule {
-    font-family: 'opensans-bold';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #ec1e79;
@@ -36,5 +36,5 @@
     justify-content: flex-end;
 }
 .contacts__schedule:hover {
-    color: rgba(0, 60, 255, 0.548);
+    color: #ffffff;
 }
