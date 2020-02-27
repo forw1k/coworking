@@ -27,21 +27,21 @@ margin-right: 20px;
     margin-top: 30px;
 }
 .tariff-element__base-title {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 11px;
     letter-spacing: 2,54px;
     color: #212121;
 }
 .tariff-element__base-text {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #221f1f;
     line-height: 1.64;
 }
 .tariff-element__base-item {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #221f1f;
@@ -94,7 +94,7 @@ margin-right: 20px;
     margin-right: 25px;
 }
 .title {
-font-family: 'gothampro';
+font-family: 'Open Sans', sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
@@ -102,7 +102,7 @@ color: #221f1f;
 text-align: center;
 }
 .tariff__content {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
@@ -110,21 +110,21 @@ text-align: center;
 .tariffs__title {
     margin-top: 30px;
     margin-bottom: 40px;
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-size: 49px;
     font-weight: 700;
     color: #221f1f;
     
 }
 .tariff__avatar-name {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #5dd1f8;
     font-size: 24px;
     z-index: 1;
 }
 .tariff__avatar-vip {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #ec1e79;
     font-size: 24px;
