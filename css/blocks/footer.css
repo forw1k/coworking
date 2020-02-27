@@ -13,7 +13,7 @@
     max-width: 100%;
 }
 .footer-url {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
@@ -26,23 +26,15 @@
 .socials__list {
     display: flex;
 }
-/*
-.socials-banner__img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
-*/
 .madeby-text {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #ffffff;
     line-height: 18px;
 }
 .socials__title {
-    font-family: 'gothampro';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
@@ -63,17 +55,6 @@
 .socials__item:hover {
     background-color: #ec1e79;
 }
-/*
-.social__item-link {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    white-space: nowrap;
-    overflow: hidden;
-    text-indent: 100%;
-}
-*/
 .socials__link--vk {
     content: "";
     display: block;
